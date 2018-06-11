@@ -1,0 +1,103 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 19:44:40  November 24, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		smartlift_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY smartlift
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:44:40  NOVEMBER 24, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VERILOG_FILE smartlift.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_location_assignment PIN_V13 -to HEX0[6]
+set_location_assignment PIN_V14 -to HEX0[5]
+set_location_assignment PIN_AE11 -to HEX0[4]
+set_location_assignment PIN_AD11 -to HEX0[3]
+set_location_assignment PIN_AC12 -to HEX0[2]
+set_location_assignment PIN_AB12 -to HEX0[1]
+set_location_assignment PIN_AF10 -to HEX0[0]
+set_location_assignment PIN_AB24 -to HEX1[6]
+set_location_assignment PIN_AA23 -to HEX1[5]
+set_location_assignment PIN_AA24 -to HEX1[4]
+set_location_assignment PIN_Y22 -to HEX1[3]
+set_location_assignment PIN_W21 -to HEX1[2]
+set_location_assignment PIN_V21 -to HEX1[1]
+set_location_assignment PIN_V20 -to HEX1[0]
+set_location_assignment PIN_AE22 -to LED_G
+set_location_assignment PIN_AE23 -to LED_R
+set_location_assignment PIN_B13 -to SW[8]
+set_location_assignment PIN_C13 -to SW[7]
+set_location_assignment PIN_AC13 -to SW[6]
+set_location_assignment PIN_AD13 -to SW[5]
+set_location_assignment PIN_AF14 -to SW[4]
+set_location_assignment PIN_AE14 -to SW[3]
+set_location_assignment PIN_P25 -to SW[2]
+set_location_assignment PIN_N26 -to SW[1]
+set_location_assignment PIN_N25 -to SW[0]
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_location_assignment PIN_N2 -to CLOCK_50
+set_location_assignment PIN_G26 -to KEY0
+set_global_assignment -name MISC_FILE "C:/Users/aluno/Music/smartlift/smartlift/smartlift.dpf"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS OUTPUT DRIVING AN UNSPECIFIED SIGNAL"
+set_global_assignment -name MISC_FILE "C:/Users/Rebeca/Desktop/smartlift/smartlift/smartlift.dpf"
+set_location_assignment PIN_J1 -to LCD_DATA[0]
+set_location_assignment PIN_J2 -to LCD_DATA[1]
+set_location_assignment PIN_H1 -to LCD_DATA[2]
+set_location_assignment PIN_H2 -to LCD_DATA[3]
+set_location_assignment PIN_J4 -to LCD_DATA[4]
+set_location_assignment PIN_J3 -to LCD_DATA[5]
+set_location_assignment PIN_H4 -to LCD_DATA[6]
+set_location_assignment PIN_H3 -to LCD_DATA[7]
+set_location_assignment PIN_K3 -to LCD_EN
+set_location_assignment PIN_K1 -to LCD_RS
+set_location_assignment PIN_K4 -to LCD_RW
+set_global_assignment -name VERILOG_FILE LCD_TEST.v
+set_global_assignment -name VERILOG_FILE LCD.v
+set_global_assignment -name VERILOG_FILE LCD_Controller.v
+set_global_assignment -name VERILOG_FILE Reset_Delay.v
+set_location_assignment PIN_K2 -to LCD_BLON
+set_location_assignment PIN_L4 -to LCD_ON
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

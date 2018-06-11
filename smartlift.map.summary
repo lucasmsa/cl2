@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Failed - Fri Jun 08 14:51:55 2018
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : smartlift
+Top-level Entity Name : smartlift
+Family : Cyclone II
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge
